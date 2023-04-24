@@ -1,0 +1,264 @@
+:root {
+	--bg-color: #f4e8de;
+	--header-bgColor: #a77c5d;
+	--header-fontColor: #332317;
+	--text-color: #332317;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+
+	font-size: 15px;
+	color: #333;
+	background: #eee;
+}
+
+.container {
+	margin: 0 auto;
+	width: 428px;
+	height: 100vh;
+	background-color: var(--bg-color);
+
+	position: relative;
+}
+
+/* Headers Styles */
+
+.header {
+	position: relative;
+
+	margin: 0 auto;
+	width: 428px;
+	height: 56px;
+	background-color: var(--header-bgColor);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header_container {
+	align-self: center;
+}
+
+.side_btn {
+	position: absolute;
+	left: 12px;
+	top: 16px;
+	cursor: pointer;
+}
+
+.header_title {
+	position: absolute;
+	left: 48px;
+	top: 14px;
+	font-size: 24px;
+	line-height: 1;
+	color: var(--text-color);
+}
+
+.add_btn {
+	position: absolute;
+	left: 392px;
+	top: 16px;
+	cursor: pointer;
+}
+
+.logo_item {
+	position: absolute;
+	top: 9px;
+	left: 48px;
+}
+
+.item_title {
+	position: absolute;
+	left: 96px;
+	top: 14px;
+	font-size: 24px;
+	line-height: 1;
+	color: var(--text-color);
+}
+
+.title {
+	position: absolute;
+	left: 48px;
+	top: 16px;
+	font-size: 24px;
+	line-height: 1;
+	color: var(--text-color);
+}
+
+.main {
+	justify-content: center;
+	position: relative;
+}
+
+.pages{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+
+}
+
+
+/* Items List, Page 1 */
+
+.item {
+	display: flex;
+	align-items: center;
+	width: 404px;
+	height: 108px;
+	margin: 16px auto;
+
+	border: 1px solid var(--header-bgColor);
+	box-sizing: border-box;
+	border-radius: 12px;
+	box-shadow: 0px 4px 4px #c4c4c4;
+	position: relative;
+	cursor: pointer;
+}
+
+.text_item {
+	font-size: 24px;
+}
+
+.subtext {
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+}
+
+.img_logo {
+	padding: 24px;
+}
+
+.edit_icon {
+	position: absolute;
+	left: 365px;
+	top: 12px;
+}
+
+.data {
+	position: absolute;
+	left: 331px;
+	top: 82px;
+	font-size: 12px;
+}
+
+/* Item Info Styles, Page 2 */
+
+.info_container {
+	display: flex;
+	position: absolute;
+	left: 12px;
+	top: 24px;
+}
+
+.info_title {
+	margin-right: 16px;
+	line-height: 24px;
+	font-size: 20px;
+}
+
+.info_main {
+	line-height: 24.5px;
+	font-size: 16px;
+}
+
+/* Footer Styles, Page 2 */
+
+.footer {
+	border-top: 1px solid var(--text-color);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+}
+
+.overview {
+	position: absolute;
+	left: 111px;
+	top: 18px;
+	cursor: pointer;
+}
+
+.history {
+	position: absolute;
+	left: 267px;
+	top: 16px;
+	cursor: pointer;
+}
+
+/* Inputs Styles, Page 3 */
+
+.input_container {
+	display: flex;
+	flex-direction: column;
+	justify-self: center;
+	width: 404px;
+	padding-top: 24px;
+	padding-left: 12px;
+}
+
+.inputs {
+	padding: 16px;
+	border: 1px solid var(--header-bgColor);
+	border-radius: 8px;
+	margin-bottom: 40px;
+	color: var(--text-color);
+	font-size: 16px;
+
+	background-color: var(--bg-color);
+	outline: none;
+}
+
+.select {
+	padding: 16px;
+	border: 1px solid var(--header-bgColor);
+	border-radius: 8px;
+	margin-bottom: 40px;
+	color: var(--text-color);
+	font-size: 16px;
+
+	background-color: var(--bg-color);
+	outline: none;
+}
+
+/* Table styles, Page 4 */
+
+.divTable {
+	display: table;
+	width: 404px;
+	justify-content: center;
+	margin: 24px 12px 0 12px;
+}
+
+.divTableRow {
+	display: table-row;
+	height: 49px;
+}
+
+.divTableBody {
+	display: table-row-group;
+}
+
+.divTableCell {
+	border-bottom: 1px solid var(--header-fontColor);
+	display: table-cell;
+	padding: 12px;
+	vertical-align: middle;
+	text-align: start;
+}
+
+.divTableCell_del_img {
+	border-bottom: 1px solid var(--header-fontColor);
+	display: table-cell;
+	padding: 12px;
+	text-align: end;
+	vertical-align: middle;
+}
+
